@@ -1,0 +1,57 @@
+.consultas-container {
+    margin-top: 20px;
+    padding: 40px;
+  }
+  
+  .consultas-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .consulta {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .consulta h3 {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .consulta p {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .consulta button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .consulta button.reagendar {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .consulta button.reagendar:hover {
+    background-color: #0056b3;
+  }
+  
+  .consulta button.cancelar {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .consulta button.cancelar:hover {
+    background-color: #bd2130;
+  }
+  
